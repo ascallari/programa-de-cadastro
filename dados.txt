@@ -1,0 +1,36 @@
+﻿Sistema em C para cadastro de pacientes com Covid-19
+ *utilizar o Code Blocks
+*profissionais da saúde devem realizar o login no sistema (informando o usuário e a senha) e
+informar os dados pessoais do paciente, como Nome, CPF, Telefone, Endereço (Rua, Número,
+Bairro, Cidade, Estado e CEP), Data de Nascimento e E-mail, data do diagnóstico e informar
+alguma comorbidade do paciente (diabetes, obesidade, hipertensão, tuberculose, outros)
+que serão salvos em um Arquivo (a principal vantagem de um arquivo é que as informações
+armazenadas podem ser consultadas a qualquer momento).
+* Após o cadastro, o sistema deverá calcular a idade e verificar se o paciente possui
+alguma comorbidade e se pertence ao grupo de risco (maiores de 65 anos). Caso o paciente
+pertença ao grupo de risco o sistema deverá salvar em um arquivo de texto o CEP e a idade
+do paciente para que essa informação possa ser enviada para a central da Secretaria da
+Saúde da cidade.
+*Com o auxílio da disciplina de ENGENHARIA DE SOFTWARE I o aluno ou grupo
+deverá aplicar o conhecimento dos métodos e técnicas de projeto para auxiliar o
+processo de desenvolvimento de software.
+ Identifique, descreva e compare os modelos de processo de desenvolvimento de
+software que foram utilizados no desenvolvimento do projeto.
+ Apresente quais modelos, técnicas e ferramentas foram utilizados na construção e
+desenvolvimento do projeto.
+*Ao final do desenvolvimento a equipe deverá entregar um arquivo ZIP com o
+seguinte conteúdo
+ 1) DocPIM (arquivo do Word no formato padrão ABNT, com as telas do programa,
+manual do usuário, manual de instalação, como compilar o programa, como testar etc.);
+ 2) Binários do programa (exel, dlls, arquivos de teste, arquivo de configuração);
+ 3) Arquivos fontes (projeto desenvolvido no 
+************************************************************************************
+o que foi feito:
+ Cadastro de pacientes, calculo da idade e se pertence ao grupo de risco.
+o que precisa melhorar:
+C case sensitive, não reconhece quando digitado s(sim) em minúsculo.
+adicionar dia, mes e ano 
+o que falta:
+login e senha
+salvar em um arquivo de texto para enviar para a central
+parte teórica.
