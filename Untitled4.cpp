@@ -5,6 +5,7 @@
 
 int cadastro(){
 	
+
 char nome [255];
 int cpf ;
 int telefone;
@@ -71,22 +72,24 @@ printf("\nInsira data diagnostico: ");
 fflush(stdin);
 scanf("%s", &diagnostico);
 */
-printf("\nAlguma comorbidade? \t [S / N]");
+
+printf("\nAlguma comorbidade? \t [S / N]"); 
 fflush(stdin);
 scanf("%c", &comorbidade);
 
-if(comorbidade == 'S'){
+if((comorbidade == 'S' )||(comorbidade == 's')){
 	printf("\nDigite as comorbidades: ");
 	fflush(stdin);
 	scanf("%s", &doencas);
+	
 }
-
 idade = anoatual - anonascimento;
 
-if(idade >= 65 || comorbidade == 'S'){
+if(idade >= 65 || comorbidade == 'S' ){ 
 
 	printf("Grupo de RISCO!!!");
-	
+}else if (idade >= 65 || comorbidade == 's'){
+	printf("Grupo de RISCO!!!");
 } else {
 	printf("Fora do grupo de Risco!");
 }
